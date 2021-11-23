@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src = "https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src = "base.js"></script>
+        <script src = "car.js"></script>
+    </head>
+    <body>
+        <a-scene >
+           
+            <a-camera wasd-controls-enabled="false" position="2 2.5 9"></a-camera>
+
+            <a-entity id="base"position = "1.5 0 0" base>
+            </a-entity>
+
+            <a-entity id = "car" scale = "0.05 0.05 0.05" car-model> </a-entity>
+
+        </a-scene>
+    </body>
+</html>
